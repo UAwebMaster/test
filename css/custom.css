@@ -1,0 +1,108 @@
+body {
+    color: #fff;
+    font-weight: 900;
+}
+/* .photo {
+    max-height: 200px;
+    width: 200px;
+    border-radius: 49%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.photo img {
+    vertical-align: middle;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+} */
+
+@media all and (min-width: 900px) {
+    .photo {
+        max-height: 145px;
+        width: 145px;
+        border-radius: 49%;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+	.photo img {
+        vertical-align: middle;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    .photo {
+        max-height: 200px;
+        width: 200px;
+        border-radius: 49%;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+	.photo img {
+        vertical-align: middle;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+.row-padding {
+    padding: 10px;
+}
+.clip {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    background-color: #3333338c;
+    border: 1px solid #333;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+.img-circle {
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+}
+.big-one {
+    position: relative;
+    top: -30px;
+}
+.compass {
+    width: 100px;
+    height: 100px;
+}
+.clip img {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+
+}
+.title_sub_tech {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.clip-internal {
+    margin-top: 15px;
+}
+.afterwork {
+    min-height: 1020px !important;
+}
